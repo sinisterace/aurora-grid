@@ -1,0 +1,46 @@
+{
+  "name": "aurora-grid",
+  "version": "1.0.0",
+  "description": "A midnight-indigo design system and React component kit for Tailwind CSS v4: aurora glows, a blueprint grid, luminous gradient type, and light/dark OKLCH tokens.",
+  "type": "module",
+  "license": "MIT",
+  "author": "sinisterace",
+  "repository": { "type": "git", "url": "https://github.com/sinisterace/aurora-grid.git" },
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./aurora.css": "./src/styles/aurora.css"
+  },
+  "files": ["src"],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18",
+    "tailwindcss": "^4"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.468.0",
+    "tailwind-merge": "^3.0.0",
+    "tw-animate-css": "^1.2.0"
+  },
+  "devDependencies": {
+    "@fontsource-variable/inter-tight": "^5.1.0",
+    "@fontsource-variable/jetbrains-mono": "^5.1.0",
+    "@fontsource-variable/jost": "^5.1.0",
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.6.0",
+    "vite": "^6.0.0"
+  }
+}
